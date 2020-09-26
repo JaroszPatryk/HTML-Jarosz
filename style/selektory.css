@@ -1,0 +1,22 @@
+table{
+    border: 1px solid;
+    width: 80%;
+}
+td{
+    border: 1px double;
+}
+#identyfikator{
+    background-color: greenyellow;
+}
+
+.mojaKlasa{
+    color: aqua;
+}
+
+.mojaKlasa.mojaDrugaKlasa{
+color: red;
+}
+
+[title="Tytuł"]{
+    color: darkkhaki;
+}
