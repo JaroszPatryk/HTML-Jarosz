@@ -7,6 +7,58 @@ p {
 }
 
 div {
-    font-size: 10px;
+    font-size: 40px;
 }
 
+img{
+    margin: auto;
+    display: block;
+    border-color: black;
+    border-width: medium;
+    border-style: dashed;
+    border-radius: 25px;
+}
+
+.list{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    position: absolute;
+    top: 2px;
+    right: 400px;
+    visibility: visible;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    /*odnosnik nieodwiedzany*/
+    color: #4CEF50;
+}
+
+a:visited{
+    /*odnosnik odwiedzony*/
+    color: #9518e5;
+}
+
+a:active{
+    /*przytrzymanie odnosnika*/
+    color: #c8baba;
+}
+
+a:hover{
+    /*najechanie na odnosnik*/
+    /*color: brown;*/
+    margin-top: 5px;
+    margin-left: 2px;
+    font-weight: bold;
+}
+
+p:first-letter{
+    font-size: 45px;
+}
+
+li:nth-child(2){
+    background-color: red;
+}
